@@ -1,0 +1,8 @@
+{
+    "clientId": "gimnasio-mc-51f29",
+    "apiKey": "AIzaSyDIgQ-PeRdyf0E5q_7TQqIQdknsTiW67to",
+    "scope": "https://www.googleapis.com/auth/calendar",
+    "discoveryDocs": [
+      "https://www.googleapis.com/discovery/v1/apis/calendar/v3/rest"
+    ]
+  }

@@ -25,20 +25,13 @@ import 'firebase/firestore';
 
 const user = auth.currentUser
 
+
+
+
 const Perfil = () => {
 
 
-  const [users, setusers] = useState([]);
-  useEffect(() => {
-    db.collection("users").onSnapshot((snapshot) => {
-      let user = snapshot.docs.map((doc) => ({
-        ...doc.data(),
-        nombreapellido: doc.nombreapellido,
-      }));
 
-      users((prev) => [...prev, ...user]);
-    });
-  })
 
 
 
@@ -63,17 +56,23 @@ const Perfil = () => {
                   
                 </h1>
                 <div className="detailItem">
-                  <span className="itemKey">Nombre: </span>
-                  <span className="itemValue"></span>
-                  
+                  <span className="itemKey">Nombre Usuario: </span>
+                  <span className="itemValue">{}</span>
                 </div>
+
+                <div className="detailItem">
+                  <span className="itemKey">Nombre y Apellidos: </span>
+                  <span className="itemValue">{}</span>
+                </div>
+
                 <div className="detailItem">
                   <span className="itemKey">Email: </span>
                   <span className="itemValue">{auth.currentUser?.email}</span>
                 </div>
+
                 <div className="detailItem">
                   <span className="itemKey">Telefono: </span>
-                  <span className="itemValue"></span>
+                  <span className="itemValue">{}</span>
                 </div>
 
               </div>

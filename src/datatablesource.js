@@ -32,30 +32,11 @@ export const userColumns = [
   },*/
 ];
 
-export const ejercicioColumns = [
-
-  {
-    field: "nombreejercicio",
-    headerName: "Ejercicio",
-    width: 180,
-  },
-  {
-    field: "series",
-    headerName: "Series",
-    width: 120,
-  },
-  {
-    field: "repeticiones",
-    headerName: "Repeticiones",
-    width: 130,
-  },
-];
-
 export const entrenamientoColumns = [
 
   {
-    field: "nombreCliente",
-    headerName: "Nombre Cliente",
+    field: "emailCliente",
+    headerName: "Email Cliente",
     width: 180,
   },
   {

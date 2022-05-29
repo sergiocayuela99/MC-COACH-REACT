@@ -68,9 +68,7 @@ const Datatable_entrenamiento = () => {
       renderCell: (params) => {
         return (
           <div className="cellAction">
-            <Link to="/entrenamientos/test" style={{ textDecoration: "none" }}>
-              <div className="viewButton">Ver</div>
-            </Link>
+
             <div
               className="deleteButton"
               onClick={() => handleDelete(params.row.id)}

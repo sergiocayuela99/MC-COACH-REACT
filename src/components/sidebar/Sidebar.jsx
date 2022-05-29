@@ -21,7 +21,7 @@ import { useNavigate } from "react-router-dom";
 
 
 
-//COLUMNA IZQUIERDA
+//COLUMNA LATERAL
 const Sidebar = () => {
 
 /*const navitage = useNavigate()
@@ -67,20 +67,12 @@ const handleSignOut = () => {
             </li>
           </Link>
 
-          <Link to="/ejercicios" style={{ textDecoration: "none" }}>
-          <li>
-            <FitnessCenterIcon className="icon" />
-            <span>Ejercicios</span>
-          </li>
-          </Link>
-
           <Link to="/entrenamientos" style={{ textDecoration: "none" }}>
             <li>
               <SportsHandballIcon className="icon" />
               <span>Entrenamientos</span>
             </li>
           </Link>
-
 
 
           <Link to="/horario" style={{ textDecoration: "none" }}>

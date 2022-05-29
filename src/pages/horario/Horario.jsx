@@ -22,9 +22,10 @@ import React, {Component } from "react";
 import * as firebase from "firebase/app";
 import 'firebase/firestore';
 
-
-
-const user = auth.currentUser
+const html = `
+  <h1>Heading</h1>
+  <p>Paragraph</p>
+`;
 
 
 const Horario = () => {
@@ -36,7 +37,8 @@ const Horario = () => {
       <Sidebar />
       <div className="singleContainer">
         <Navbar />
-        <ApiCalendar/>
+        horario
+        <div>{html}</div>
 
       </div>
     </div>

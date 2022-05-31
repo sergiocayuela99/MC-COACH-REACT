@@ -68,6 +68,10 @@ const Datatable_entrenamiento = () => {
       renderCell: (params) => {
         return (
           <div className="cellAction">
+<<<<<<< HEAD
+=======
+
+>>>>>>> 167966a79513259654ed24485215d26b1f88e1e6
             <div
               className="deleteButton"
               onClick={() => handleDelete(params.row.id)}

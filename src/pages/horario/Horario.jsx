@@ -17,6 +17,7 @@ function Horario () {
 
 export default Horario;
 
+<<<<<<< HEAD
 
 
   /*const [citas,setCitas]=useState([]);
@@ -31,6 +32,12 @@ export default Horario;
               })))
          })
     },[input.nombre, input.email, input.fecha]);
+=======
+const html = `
+  <h1>Heading</h1>
+  <p>Paragraph</p>
+`;
+>>>>>>> 167966a79513259654ed24485215d26b1f88e1e6
 
 
   const addCita=(e)=>{
@@ -86,6 +93,7 @@ export default Horario;
       <Sidebar />
       <div className="singleContainer">
         <Navbar />
+<<<<<<< HEAD
 
         <h4>LISTA DE CITAS</h4>
 
@@ -105,6 +113,10 @@ export default Horario;
       <ul>
           {citas.map(item=> <Cita key={item.id} arr={item} />)}
       </ul>
+=======
+        horario
+        <div>{html}</div>
+>>>>>>> 167966a79513259654ed24485215d26b1f88e1e6
 
       </div>
     </div>

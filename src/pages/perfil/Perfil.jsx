@@ -32,6 +32,7 @@ const user = auth.currentUser
 const Perfil = () => {
 
 
+<<<<<<< HEAD
   const [perfiles, setPerfiles] = React.useState ([]);
   
   React.useEffect(() => {
@@ -55,6 +56,8 @@ const Perfil = () => {
       )})
       return unsuscribe;
   }, [])
+=======
+>>>>>>> 167966a79513259654ed24485215d26b1f88e1e6
 
 
 
@@ -82,6 +85,7 @@ const Perfil = () => {
                 <div className="detailItem">
                   <span className="itemKey">Nombre Usuario: </span>
                   <span className="itemValue">{}</span>
+<<<<<<< HEAD
                 </div>
 
                 <div className="detailItem">
@@ -89,6 +93,15 @@ const Perfil = () => {
                   <span className="itemValue">{}</span>
                 </div>
 
+=======
+                </div>
+
+                <div className="detailItem">
+                  <span className="itemKey">Nombre y Apellidos: </span>
+                  <span className="itemValue">{}</span>
+                </div>
+
+>>>>>>> 167966a79513259654ed24485215d26b1f88e1e6
                 <div className="detailItem">
                   <span className="itemKey">Email: </span>
                   <span className="itemValue">{auth.currentUser?.email}</span>

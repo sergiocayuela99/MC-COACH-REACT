@@ -10,7 +10,7 @@ import { useContext } from "react";
 import { auth } from '../../firebase'
 
 
-//BOTONES DE ARRIBA
+//BARRA SUPERIOR
 const Navbar = () => {
   const { dispatch } = useContext(DarkModeContext);
   const user = auth.currentUser

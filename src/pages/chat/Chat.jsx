@@ -22,14 +22,9 @@ import React, {Component } from "react";
 import * as firebase from "firebase/app";
 import 'firebase/firestore';
 
-
-
 const user = auth.currentUser
 
-
 const Chat = () => {
-
-
 
   return (
     <div className="single">

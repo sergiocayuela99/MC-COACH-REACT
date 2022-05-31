@@ -4,6 +4,7 @@ import "./home.scss";
 import Widget from "../../components/widget/Widget";
 import Table from "../../components/table/Table";
 import Datatable_user from "../../components/datatable_user/Datatable_user";
+import Datatable_entrenamiento from "../../components/datatable_entrenamiento/Datatable_entrenamiento";
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
         
         <div className="listContainer">
           <div className="listTitle">Visión Global MC-GYM</div>
-          <Table />
+          <Datatable_entrenamiento />
         </div>
         <div className="listContainer">
           <div className="listTitle">Usuarios de MC-GYM</div>

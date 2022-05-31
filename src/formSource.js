@@ -42,33 +42,13 @@ export const userInputs = [
     },*/
   ];
   
-  export const ejercicioInputs = [
-    {
-      id: "nombreejercicio",
-      label: "Nombre del ejercicio",
-      type: "text",
-      placeholder: "Sentadilla",
-    },
-    {
-      id: "series",
-      label: "Series",
-      type: "number",
-      placeholder: "2",
-    },
-    {
-      id: "repeticiones",
-      label: "Repeticiones",
-      type: "number",
-      placeholder: "8",
-    },
-  ];
 
   export const entrenamientoInputs = [
     {
-      id: "nombreCliente",
-      label: "Nombre del cliente",
+      id: "emailCliente",
+      label: "Email del cliente",
       type: "text",
-      placeholder: "Miguel",
+      placeholder: "Miguel@gmail.com",
     },
     {
       id: "ejercicio1",
@@ -186,27 +166,5 @@ export const userInputs = [
       //placeholder: "8",
     },
 
-/*
-    {
-      id: "ejercicio2",
-      label: "Nombre ejercicio 1",
-      type: "text",
-      //placeholder: "Sentadilla",
-    },
-    {
-      id: "series2",
-      label: "Series ejercicio 1",
-      type: "number",
-      //placeholder: "4",
-    },
-    {
-      id: "repeticiones2",
-      label: "Repeticiones ejercicio 1",
-      type: "number",
-      //placeholder: "8",
-    },
-
-
-*/
   ];
   

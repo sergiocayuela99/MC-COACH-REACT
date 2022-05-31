@@ -1,0 +1,18 @@
+
+.cita__list{
+    display:flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    border: 1px solid lightgray;
+    margin-bottom: 50px !important;
+    margin: 50px;
+    color: brown;
+}
+
+.texto_citas {
+    font-display: unset;
+    color: rgb(161, 161, 161);
+  }
+    

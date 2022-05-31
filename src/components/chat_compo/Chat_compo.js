@@ -18,9 +18,10 @@ function Chat() {
     e.preventDefault();
 
     addDoc(collection(db, 'chats2'), {
-      timestamp: Date.now(),
+      //timestamp: Date.now(),
       text
     });
+    setText('')
   }
 
   return (

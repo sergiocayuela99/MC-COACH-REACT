@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 import { collection, query, where, getDocs } from "firebase/firestore";
 import { db } from "../../firebase";
 
-//PRIMEROS WIDGETS
+//CONTADOR USUARIO Y PORCENTAJE
 const Widget = ({ type }) => {
   const [amount, setAmount] = useState(null);
   const [diff, setDiff] = useState(null);
